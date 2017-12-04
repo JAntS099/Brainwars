@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <!--game 1.1-->
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <!--tijdens het laden van de HTML randomrize een foto uit de array letters-->
+    <body onload="createCards('wedstrijd')">
+        <!--een tekstheader-->
+        <h1>Weathercast!</h1>
+        <div id="container">
+            <progress value="0" max="30" id="progressBar"></progress>
+            <div class="scorebord">
+                <span id="lblscore">0</span>
+                
+            </div>
+            <!--button class voor terug te gaan-->
+            <a href="menu.html">
+            <div class ="terug" >Stop Wedstrijd</div>
+            </a>
+        <!--dit is het div waar een randomrize foto wordt display-->
+            <div id="DivUpper"></div>
+            <div id="DivLower">
+                
+            <ul id="DivImage">
+                <!--drie divs waairn foto's zijn-->
+                <li><button onClick="compare('zon', 'geel')"><img src="images/gele_zon.png"></button></li>
+                <li><button onClick="compare('wolk', 'grijs')"><img src="images/grijz_wolk.png"></button></li>
+                <li><button onClick="compare('waterdruppel', 'blauw')"><img src="images/blauw_waterdrupel.png"></button></li>
+            </ul>
+            </div>
+          
+            <div id="myDIV">
+                <ul id="DivImageExtra">
+                <!--vier divs waairn foto's extra worden ingevoerd na 5 correcte antwoorden-->
+                <li><button onClick="compare('boom', 'groen')"><img src="images/groene_boom.png"></button></li>
+                <li><button onClick="compare('blad', 'bruin')"><img src="images/bruine_blad.png"></button></li>
+                <li><button onClick="compare('hart', 'rood')"><img src="images/rood_hart.png"></button></li>
+                <li><button onClick="compare('huis', 'oranje')"><img src="images/oranje_huis.png"></button></li>
+                </ul>
+            </div>
+        </div>
+          <script type="text/javascript" src="wheatercast.js"></script>
+    </body>
+</html>
