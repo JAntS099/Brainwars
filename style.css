@@ -1,0 +1,201 @@
+        #myDIV {
+        height:200px;
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        margin-top: 370px;
+        display:none;
+        }
+        /*Weathercast*/
+        h1{
+        /*margin-left: 90px;*/
+        text-align: center;
+        font-family: arial;
+        color:#6fa8dc;
+        }
+        
+         h2{
+        font-family: arial;
+        color: #6fa8dc;
+        position:absolute;
+        left: 39%;
+        top: 20%;
+        }
+        form {
+            position:absolute;
+            left:39%;
+            top:30%;
+        }
+        
+        #OK{
+            background-color:#a64d79;
+            color: white;
+            width:35px;
+            height:30px;
+        }
+        /*MainCenterBox*/
+        #container{
+        margin-left: 350px;
+        height: 700px;
+        width:903px;
+        background-color:white;
+        border: 1px solid black;
+        border-radius: 5px;
+        position: absolute;
+        left: -25px;
+        right: 125px;
+        }
+        ul,#DivImage{
+        display:flex;
+        flex-direction:row;
+        list-style-type:none;
+        }
+        li{
+        margin: 15px;
+        }
+        img{
+        height:auto;
+        width:auto;
+        margin-left:7px;
+        border-radius:5px;
+        }
+        #DivUpper{
+        border: 1px solid black;
+        background-color: gray;
+        border-radius: 5px;
+        margin-top:10px;
+        left: 340px;
+        top: 10px;
+        height: 200px;
+        width: 180px;
+        position: absolute;
+        background-repeat:no-repeat;
+        }
+        #DivLower{
+        background-color: white;
+        height: 200px;
+        width: 180px;
+        margin-left: 50px;
+        margin-top:190px;
+        position:absolute;
+        top:50px;
+        }
+        /*#DivExtra{*/
+        /*    height:200px;*/
+        /*    width: 100%;*/
+        /*    padding: 50px 0;*/
+        /*    text-align: center;*/
+        /*    background-color: red;*/
+        /*    margin-top: 370px;*/
+        /*}*/
+        #DivImageExtra{
+        margin-left: -55px;
+        position:absolute;
+        top:455px;
+        }
+        /*button {         */
+        /*height:200px;*/
+        /*width:200px;*/
+        /*background-repeat: no-repeat;*/
+        /*border-radius:5px;*/
+        /*}*/
+        /*#linkNaarOefening{*/
+        /*    height:150px;*/
+        /*    width:150px;*/
+        /*    margin-left:100px;*/
+        /*    background-color:#80FF00;*/
+            
+        /*}*/
+        
+        /*CSS voor oefening*/
+        
+        playerName{
+            height:100px;
+            width:200px;
+            border:1px solid black;
+        }
+        
+       #progressBar{
+                margin-left: 344px;
+        }
+         .terug:hover{
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        
+        .terug{
+            height: auto;
+            width: auto;
+            border-radius: 5px;
+            position: absolute;
+            top:0px;
+            font-family:arial;
+            font-size:20px;
+            top: 10px;
+            right: 70px;
+            background-color: orange;
+            color:white;
+            padding: 10px 10px 10px 10px;
+            transition-duration: 0.4s;
+            
+        }
+         .scorebord{
+            height: 100px;
+            width: 200px;
+            background-color: white;
+            padding-left: 4px;
+         }  
+         #lblscore{
+            margin-left: 10px;
+            background-color: blue;
+            color: white;
+            display: inline-block;
+            border-radius: 70%;
+            padding: 5px 20px;
+            font-family: arial;
+            margin-top: 19px;
+            font-size: 44px; 
+         }
+         
+/* CSS voor menu*/
+        #linkNaarOefening:hover{
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+                
+            }
+            #linkNaarOefening{
+                font-size:40px;
+                font-family: arial;
+                color:white;
+                padding: 10px 100px 10px 100px;
+                position: absolute;
+                top:25%;
+                left:25%;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-right: 50px;
+                margin-left:50px;
+                height:auto;
+                width:150px;
+                background-color:#80FF00;
+                transition-duration: 0.4s;
+            }
+            
+            #linkNaarWedstrijd:hover{
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+            #linkNaarWedstrijd{
+                font-size:40px;
+                font-family: arial;
+                color:white;
+                padding: 10px 100px 10px 100px;
+                position: absolute;
+                top:45%;
+                left:25%;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-right: 50px;
+                margin-left:50px;
+                height:auto;
+                width:150px;
+                background-color:#a64d79;
+                transition-duration: 0.4s;
+            }
